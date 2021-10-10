@@ -1,6 +1,6 @@
     toast ("Updating images")
 localPath = scriptPath()
-imagePath = (localPath .. "luar/1farmImage/")
+imagePath = (localPath .. "luar/dutyImage/")
 httpDownload("https://raw.githubusercontent.com/autozfarmz/2160/master/luar/dutyImage/a.png", imagePath .."a.png")
 
 scriptExit("You have Updated the auto zFarmz image library!")
