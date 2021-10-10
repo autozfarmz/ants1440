@@ -46,7 +46,7 @@ touchList[index] = {target =  "b1.png", region = Region(809, 241, 139, 237), id 
 index = index + 1
 
 ------ 5 -----
-touchList[index] = {target =  "c.png", region = Region(920, 747, 152, 152), id = "b1c", action = 'click(matchResult); wait(1)'}
+touchList[index] = {target =  "c.png", region = Region(920, 747, 152, 152), id = "c", action = 'click(matchResult); wait(1)'}
 index = index + 1
 
 ------ 6 -----
@@ -54,7 +54,7 @@ touchList[index] = {target =  "b2.png", region = Region(1009, 245, 130, 247), id
 index = index + 1
 
 ------ 7 -----
-touchList[index] = {target =  "c.png", region = Region(920, 747, 152, 152), id = "b1c", action = 'click(matchResult); wait(1)'}
+touchList[index] = {target =  "c.png", region = Region(920, 747, 152, 152), id = "c", action = 'click(matchResult); wait(1)'}
 index = index + 1
 
 ------ 8 -----
@@ -62,7 +62,7 @@ touchList[index] = {target =  "b3.png", region = Region(1206, 245, 134, 238), id
 index = index + 1
 
 ------ 9 -----
-touchList[index] = {target =  "c.png", region = Region(920, 747, 152, 152), id = "b1c", action = 'click(matchResult); wait(1)'}
+touchList[index] = {target =  "c.png", region = Region(920, 747, 152, 152), id = "c", action = 'click(matchResult); wait(1)'}
 index = index + 1
 
 ------ 10 -----
@@ -70,7 +70,7 @@ touchList[index] = {target =  "b4.png", region = Region(1400, 238, 138, 243), id
 index = index + 1
 
 ------ 11 -----
-touchList[index] = {target =  "c.png", region = Region(920, 747, 152, 152), id = "b1c", action = 'click(matchResult); wait(1)'}
+touchList[index] = {target =  "c.png", region = Region(920, 747, 152, 152), id = "c", action = 'click(matchResult); wait(1)'}
 index = index + 1
 
 ------ 12 -----
@@ -78,7 +78,7 @@ touchList[index] = {target =  "b5.png", region = Region(1591, 243, 135, 244), id
 index = index + 1
 
 ------ 13 -----
-touchList[index] = {target =  "c.png", region = Region(920, 747, 152, 152), id = "b1c", action = 'click(matchResult); wait(1)'}
+touchList[index] = {target =  "c.png", region = Region(920, 747, 152, 152), id = "c", action = 'click(matchResult); wait(1)'}
 index = index + 1
 
 ------ 14 -----
@@ -86,5 +86,5 @@ touchList[index] = {target =  "b6.png", region = Region(1795, 246, 140, 240), id
 index = index + 1
 
 ------ 15 -----
-touchList[index] = {target =  "c.png", region = Region(920, 747, 152, 152), id = "b1c", action = 'click(matchResult); wait(1)'}
+touchList[index] = {target =  "c.png", region = Region(920, 747, 152, 152), id = "c", action = 'click(matchResult); wait(1)'}
 index = index + 1
