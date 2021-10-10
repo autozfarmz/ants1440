@@ -10,7 +10,7 @@ Settings:setCompareDimension(true, scriptDimension)
 local index = 1
 touchList = {}
 waitList = {}
-
+startApp("com.kingsgroup.ww2")
 ------ 1 -----
 touchList[index] = {target =  "a.png", region = Region(1296, 955, 152, 152), id = "a", action = 'click'}
 index = index + 1
