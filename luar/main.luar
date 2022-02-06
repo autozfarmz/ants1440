@@ -4,7 +4,7 @@ setImmersiveMode(immersive)
 genVersion = "9.0.2-pro2"
 setAutoGameArea = true
 pcall (autoGameArea, setAutoGameArea)
-scriptDimension = 720
+scriptDimension = 1400
 Settings:setScriptDimension(true, scriptDimension)
 Settings:setCompareDimension(true, scriptDimension)
 local index = 1
@@ -29,10 +29,11 @@ else
     scriptExit("You have Updated Auto Zfarm bot!")
 end
 
------- 1 -----
-touchList[index] = {target =  "startx.png", region = Region(564, 45, 152, 152), id = "1", action = 'click'}
+------ startup -----
+touchList[index] = {target =  "startx.png", region = Region(1178, 399, 152, 152), id = "startx", action = 'click'}
 index = index + 1
------- 2 -----
-touchList[index] = {target =  "help.png", region = Region(587, 885, 152, 152), id = "2", action = 'click'}
+
+touchList[index] = {target =  "help.png", region = Region(1227, 2249, 152, 152), id = "help", action = 'click'}
 index = index + 1
+
 
