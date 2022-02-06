@@ -23,7 +23,7 @@ print (latestVersion)
 if currentVersion == latestVersion then
     toast ("You are running the most current version!")
 else
-    httpDownload("https://raw.githubusercontent.com/autozfarmz/antspixelmaster/version.lua", localPath .."version.lua")
+    httpDownload("https://raw.githubusercontent.com/autozfarmz/antspixel/master/version.lua", localPath .."version.lua")
     httpDownload("https://raw.githubusercontent.com/autozfarmz/antspixel/master/luar/main.luar", localPath .."luar/main.luar")
     httpDownload("https://raw.githubusercontent.com/autozfarmz/antspixel/master/luar/imageupdater.luar", localPath .."luar/imageupdater.luar")
     scriptExit("You have Updated Auto Zfarm bot!")
