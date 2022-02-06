@@ -14,7 +14,7 @@ startApp("com.star.union.planetant")
 
 
         --- This checks the version number on github to see if an update is needed, then downloads the newest files ---
-getNewestVersion = loadstring(httpGet("https://raw.githubusercontent.com/autozfarmz/2160/master/version.lua"))
+getNewestVersion = loadstring(httpGet("https://raw.githubusercontent.com/autozfarmz/antspixel/master/version.lua"))
 latestVersion = getNewestVersion()
 currentVersion = dofile(localPath .."version.lua")
 print (currentVersion)
@@ -22,69 +22,9 @@ print (latestVersion)
 if currentVersion == latestVersion then
     toast ("You are running the most current version!")
 else
-    httpDownload("https://raw.githubusercontent.com/autozfarmz/2160/master/version.lua", localPath .."version.lua")
-    httpDownload("https://raw.githubusercontent.com/autozfarmz/2160/master/luar/1farm.luar", localPath .."luar/1farm.luar")
-    httpDownload("https://raw.githubusercontent.com/autozfarmz/2160/master/luar/imageupdater.luar", localPath .."luar/imageupdater.luar")
+    httpDownload("https://raw.githubusercontent.com/autozfarmz/antspixelmaster/version.lua", localPath .."version.lua")
+    httpDownload("https://raw.githubusercontent.com/autozfarmz/antspixel/master/luar/1farm.luar", localPath .."luar/1farm.luar")
+    httpDownload("https://raw.githubusercontent.com/autozfarmz/antspixel/master/luar/imageupdater.luar", localPath .."luar/imageupdater.luar")
     scriptExit("You have Updated Auto Zfarm bot!")
 end
 
-
------- 1 -----
-touchList[index] = {target =  "a.png", region = Region(1296, 955, 152, 152), id = "a", action = 'click'}
-index = index + 1
-
------- 2 -----
-touchList[index] = {target =  "dd.png", region = Region(1776, 753, 152, 152), id = "dd", action = 'click'}
-index = index + 1
-
------- 3 -----
-touchList[index] = {target =  "ad.png", region = Region(949, 511, 152, 152), id = "ad", action = 'click(matchResult); wait(1)'}
-index = index + 1
-
------- 4 -----
-touchList[index] = {target =  "b1.png", region = Region(809, 241, 139, 237), id = "b1", action = 'click(matchResult); wait(1)'}
-index = index + 1
-
------- 5 -----
-touchList[index] = {target =  "c.png", region = Region(920, 747, 152, 152), id = "c", action = 'click(matchResult); wait(1)'}
-index = index + 1
-
------- 6 -----
-touchList[index] = {target =  "b2.png", region = Region(1009, 245, 130, 247), id = "b2", action = 'click(matchResult); wait(1)'}
-index = index + 1
-
------- 7 -----
-touchList[index] = {target =  "c.png", region = Region(920, 747, 152, 152), id = "c", action = 'click(matchResult); wait(1)'}
-index = index + 1
-
------- 8 -----
-touchList[index] = {target =  "b3.png", region = Region(1206, 245, 134, 238), id = "b3", action = 'click(matchResult); wait(1)'}
-index = index + 1
-
------- 9 -----
-touchList[index] = {target =  "c.png", region = Region(920, 747, 152, 152), id = "c", action = 'click(matchResult); wait(1)'}
-index = index + 1
-
------- 10 -----
-touchList[index] = {target =  "b4.png", region = Region(1400, 238, 138, 243), id = "b4", action = 'click(matchResult); wait(1)'}
-index = index + 1
-
------- 11 -----
-touchList[index] = {target =  "c.png", region = Region(920, 747, 152, 152), id = "c", action = 'click(matchResult); wait(1)'}
-index = index + 1
-
------- 12 -----
-touchList[index] = {target =  "b5.png", region = Region(1591, 243, 135, 244), id = "b5", action = 'click(matchResult); wait(1)'}
-index = index + 1
-
------- 13 -----
-touchList[index] = {target =  "c.png", region = Region(920, 747, 152, 152), id = "c", action = 'click(matchResult); wait(1)'}
-index = index + 1
-
------- 14 -----
-touchList[index] = {target =  "b6.png", region = Region(1795, 246, 140, 240), id = "b6", action = 'click(matchResult); wait(1)'}
-index = index + 1
-
------- 15 -----
-touchList[index] = {target =  "c.png", region = Region(920, 747, 152, 152), id = "c", action = 'click(matchResult); wait(1)'}
-index = index + 1
