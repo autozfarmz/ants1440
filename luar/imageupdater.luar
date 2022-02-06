@@ -1,5 +1,6 @@
     toast ("Updating images")
 localPath = scriptPath()
 imagePath = (localPath .. "luar/dutyImage/")
-httpDownload("https://raw.githubusercontent.com/autozfarmz/antspixel/master/luar/dutyImage/startx.png", imagePath .."startx.png")
+httpDownload("https://raw.githubusercontent.com/autozfarmz/antspixel/master/luar/mainImage/startx.png", imagePath .."startx.png")
+httpDownload("https://raw.githubusercontent.com/autozfarmz/antspixel/master/luar/mainImage/startx.png", imagePath .."help.png")
 scriptExit("You have Updated the auto zFarmz image library!")
