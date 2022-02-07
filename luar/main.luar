@@ -30,10 +30,7 @@ else
 end
 
 ------ startup -----
-touchList[index] = {target =  "startx.png", region = Region(1178, 399, 152, 152), id = "startx", action = 'click'}
-index = index + 1
-
-touchList[index] = {target =  "help.png", region = Region(1227, 2249, 152, 152), id = "help", action = 'click'}
+touchList[index] = {target =  "startx.png", region = Region(1214, 372, 152, 152), id = "startx", action = 'click'}
 index = index + 1
 
 
