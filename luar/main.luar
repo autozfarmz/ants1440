@@ -4,7 +4,7 @@ setImmersiveMode(immersive)
 genVersion = "9.0.2-pro2"
 setAutoGameArea = true
 pcall (autoGameArea, setAutoGameArea)
-scriptDimension = 1400
+scriptDimension = 720
 Settings:setScriptDimension(true, scriptDimension)
 Settings:setCompareDimension(true, scriptDimension)
 local index = 1
@@ -30,7 +30,70 @@ else
 end
 
 ------ startup -----
-touchList[index] = {target =  "startx.png", region = Region(1214, 372, 152, 152), id = "startx", action = 'click'}
+touchList[index] = {target =  "startx.png", region = Region(564, 45, 152, 152), id = "1", action = 'click'}
+index = index + 1
+
+------ help n gifts -----
+touchList[index] = {target =  "help1.png", region = Region(589, 775, 152, 152), id = "help1", action = 'click'}
+index = index + 1
+
+touchList[index] = {target =  "help2.png", region = Region(583, 878, 152, 152), id = "help2", action = 'click'}
+index = index + 1
+
+touchList[index] = {target =  "gifts.png", region = Region(585, 888, 152, 152), id = "gifts", action = 'click'}
+index = index + 1
+
+touchList[index] = {target =  "giftsall.png", region = Region(265, 1145, 152, 152), id = "giftsall", action = 'click'}
+index = index + 1
+
+touchList[index] = {target =  "giftsallx.png", region = Region(-17, 204, 152, 152), id = "giftsallx", action = 'click'}
+index = index + 1
+
+touchList[index] = {target =  "giftsrare.png", region = Region(447, 318, 152, 152), id = "giftsrare", action = 'click'}
+index = index + 1
+
+touchList[index] = {target =  "giftsrareclaim.png", region = Region(514, 401, 152, 152), id = "giftsrareclaim", action = 'click'}
+index = index + 1
+
+touchList[index] = {target =  "giftsrareclaimx.png", region = Region(-22, 206, 152, 152), id = "giftsrareclaimx", action = 'click'}
+index = index + 1
+
+touchList[index] = {target =  "help2.png", region = Region(583, 878, 152, 152), id = "help2", action = 'click'}
+index = index + 1
+
+------ pea -----
+touchList[index] = {target =  "pea.png", region = Region(284, 43, 152, 152), id = "pea", action = 'click'}
+index = index + 1
+
+touchList[index] = {target =  "peaclaim.png", region = Region(273, 1156, 152, 152), id = "peaclaim", action = 'click'}
+index = index + 1
+
+touchList[index] = {target =  "peaclaimback.png", region = Region(-26, -36, 152, 152), id = "peaclaimback", action = 'click'}
+index = index + 1
+
+touchList[index] = {target =  "peaclaimbackx.png", region = Region(-40, -37, 152, 152), id = "peaclaimbackx", action = 'click'}
+index = index + 1
+
+------ vip -----
+touchList[index] = {target =  "vip.png", region = Region(-3, 51, 152, 152), id = "vip", action = 'click'}
+index = index + 1
+
+touchList[index] = {target =  "vipc.png", region = Region(146, 416, 152, 152), id = "vipc", action = 'click'}
+index = index + 1
+
+touchList[index] = {target =  "vipcc.png", region = Region(274, 779, 152, 152), id = "vipcc", action = 'click'}
+index = index + 1
+
+touchList[index] = {target =  "vipccx.png", region = Region(-26, -41, 152, 152), id = "vipccx", action = 'click'}
+index = index + 1
+
+touchList[index] = {target =  "vipccs.png", region = Region(576, 67, 152, 152), id = "vipccs", action = 'click'}
+index = index + 1
+
+touchList[index] = {target =  "vipccsb.png", region = Region(-26, -44, 152, 152), id = "vipccsb", action = 'click'}
+index = index + 1
+
+touchList[index] = {target =  "vipccsbx.png", region = Region(-45, -40, 152, 152), id = "vipccsbx", action = 'click'}
 index = index + 1
 
 
