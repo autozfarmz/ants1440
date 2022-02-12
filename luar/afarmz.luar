@@ -1,0 +1,465 @@
+----- created by AnkuLua snap and play script ------
+immersive = true
+setImmersiveMode(immersive)
+genVersion = "9.0.0-pro2"
+setAutoGameArea = true
+pcall (autoGameArea, setAutoGameArea)
+scriptDimension = 1440
+Settings:setScriptDimension(true, scriptDimension)
+Settings:setCompareDimension(true, scriptDimension)
+local index = 1
+touchList = {}
+waitList = {}
+startApp("com.star.union.planetant")
+
+
+------ start -----
+touchList[index] = {target =  "startx.png", region = Region(1195, 366, 152, 152), id = "startx", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+------ help -----
+touchList[index] = {target =  "help1.png", region = Region(1277, 2221, 152, 152), id = "help1", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "help2.png", region = Region(1270, 2009, 152, 152), id = "help2", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+------ gifts -----
+touchList[index] = {target =  "gift.png", region = Region(1283, 2229, 152, 152), id = "gift", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "giftall.png", region = Region(674, 2744, 152, 152), id = "giftall", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "giftx.png", region = Region(36, 497, 152, 152), id = "giftx", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "rare.png", region = Region(1019, 706, 152, 152), id = "rare", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "rareclaim.png", region = Region(1139, 893, 152, 152), id = "rareclaim", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "rareclaimb.png", region = Region(36, 483, 152, 152), id = "rareclaimb", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "rareclaimbx.png", region = Region(1285, -1, 152, 152), id = "rareclaimbx", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+------ vip -----
+touchList[index] = {target =  "vip.png", region = Region(12, 177, 152, 152), id = "vip", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "vipcheck.png", region = Region(374, 903, 152, 152), id = "vipcheck", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "vipcheckclaim.png", region = Region(667, 1855, 152, 152), id = "vipcheckclaim", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "vipcheckclaimb.png", region = Region(37, 22, 152, 152), id = "vipcheckclaimb", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "vipsign.png", region = Region(1266, 192, 152, 152), id = "vipsign", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "vipsignb.png", region = Region(32, 23, 152, 152), id = "vipsignb", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "vipsignbx.png", region = Region(16, 20, 152, 152), id = "vipsignbx", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+------ mining -----
+touchList[index] = {target =  "mine.png", region = Region(386, 2242, 180, 180), id = "mine", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "mine2.png", region = Region(946, 2732, 180, 180), id = "mine2", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "mine3.png", region = Region(481, 2724, 180, 180), id = "mine3", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "mine4.png", region = Region(187, 1622, 180, 180), id = "mine4", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "mine5.png", region = Region(1258, 2262, 180, 180), id = "mine5", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "mine6.png", region = Region(100, 1621, 180, 180), id = "mine6", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "mine7.png", region = Region(462, 2750, 180, 180), id = "mine7", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "mine8.png", region = Region(-11, 9, 180, 180), id = "mine8", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "mine9.png", region = Region(-5, 9, 180, 180), id = "mine9", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+------ duel event -----
+touchList[index] = {target =  "duel.png", region = Region(527, 2230, 180, 180), id = "duel", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelmain.png", region = Region(644, 380, 180, 180), id = "duelmain", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1.png", region = Region(946, 2724, 180, 180), id = "duelc1", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1free.png", region = Region(1149, 935, 180, 180), id = "duelc1free", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1depart.png", region = Region(650, 2740, 180, 180), id = "duelc1depart", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1skip.png", region = Region(1192, 2386, 180, 180), id = "duelc1skip", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1b.png", region = Region(594, 2625, 180, 180), id = "duelc1b", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1.png", region = Region(946, 2724, 180, 180), id = "duelc2", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1free.png", region = Region(1149, 935, 180, 180), id = "duelc2free", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1depart.png", region = Region(650, 2740, 180, 180), id = "duelc2depart", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1skip.png", region = Region(1192, 2386, 180, 180), id = "duelc2skip", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1b.png", region = Region(594, 2625, 180, 180), id = "duelc2b", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1.png", region = Region(946, 2724, 180, 180), id = "duelc3", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1free.png", region = Region(1149, 935, 180, 180), id = "duelc3free", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1depart.png", region = Region(650, 2740, 180, 180), id = "duelc3depart", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1skip.png", region = Region(1192, 2386, 180, 180), id = "duelc3skip", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1b.png", region = Region(594, 2625, 180, 180), id = "duelc3b", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1.png", region = Region(946, 2724, 180, 180), id = "duelc4", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1free.png", region = Region(1149, 935, 180, 180), id = "duelc4free", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1depart.png", region = Region(650, 2740, 180, 180), id = "duelc4depart", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1skip.png", region = Region(1192, 2386, 180, 180), id = "duelc4skip", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1b.png", region = Region(594, 2625, 180, 180), id = "duelc4b", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1.png", region = Region(946, 2724, 180, 180), id = "duelc5", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1free.png", region = Region(1149, 935, 180, 180), id = "duelc5free", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1depart.png", region = Region(650, 2740, 180, 180), id = "duelc5depart", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1skip.png", region = Region(1192, 2386, 180, 180), id = "duelc5skip", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1b.png", region = Region(594, 2625, 180, 180), id = "duelc5b", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1.png", region = Region(946, 2724, 180, 180), id = "duelc6", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1free.png", region = Region(1149, 935, 180, 180), id = "duelc6free", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1depart.png", region = Region(650, 2740, 180, 180), id = "duelc6depart", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1skip.png", region = Region(1192, 2386, 180, 180), id = "duelc6skip", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1b.png", region = Region(594, 2625, 180, 180), id = "duelc6b", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1.png", region = Region(946, 2724, 180, 180), id = "duelc7", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1free.png", region = Region(1149, 935, 180, 180), id = "duelc7free", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1depart.png", region = Region(650, 2740, 180, 180), id = "duelc7depart", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1skip.png", region = Region(1192, 2386, 180, 180), id = "duelc7skip", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1b.png", region = Region(594, 2625, 180, 180), id = "duelc7b", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1.png", region = Region(946, 2724, 180, 180), id = "duelc8", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1free.png", region = Region(1149, 935, 180, 180), id = "duelc8free", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1depart.png", region = Region(650, 2740, 180, 180), id = "duelc8depart", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1skip.png", region = Region(1192, 2386, 180, 180), id = "duelc8skip", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1b.png", region = Region(594, 2625, 180, 180), id = "duelc8b", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1.png", region = Region(946, 2724, 180, 180), id = "duelc9", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1free.png", region = Region(1149, 935, 180, 180), id = "duelc9free", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1depart.png", region = Region(650, 2740, 180, 180), id = "duelc9depart", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1skip.png", region = Region(1192, 2386, 180, 180), id = "duelc9skip", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1b.png", region = Region(594, 2625, 180, 180), id = "duelc9b", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1.png", region = Region(946, 2724, 180, 180), id = "duelc10", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1free.png", region = Region(1149, 935, 180, 180), id = "duelc10free", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1depart.png", region = Region(650, 2740, 180, 180), id = "duelc10depart", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1skip.png", region = Region(1192, 2386, 180, 180), id = "duelc10skip", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelc1b.png", region = Region(594, 2625, 180, 180), id = "duelc10b", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelrewards.png", region = Region(1065, 162, 180, 180), id = "duelrewards", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelrewardsclaim.png", region = Region(562, 2773, 180, 180), id = "duelrewardsclaim", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelrewardsclaimall.png", region = Region(674, 1635, 180, 180), id = "duelrewardsclaimall", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelrewardsclaimback.png", region = Region(678, -18, 180, 180), id = "duelrewardsclaimback", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duelrewardsclaimbackx.png", region = Region(26, -2, 180, 180), id = "duelrewardsclaimbackx", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duellogs.png", region = Region(1053, 358, 180, 180), id = "duellogs", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "duellogsx.png", region = Region(1275, -2, 180, 180), id = "duellogsx", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+------ pea -----
+touchList[index] = {target =  "pea.png", region = Region(543, 2250, 152, 152), id = "pea", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "pea1.png", region = Region(796, 1750, 152, 152), id = "pea1", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "pea1claim.png", region = Region(672, 2795, 152, 152), id = "pea1claim", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "pea1claimx.png", region = Region(42, 30, 152, 152), id = "pea1claimx", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "pea1claimxx.png", region = Region(35, 20, 152, 152), id = "pea1claimxx", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+------ alliance -----
+touchList[index] = {target =  "alliance.png", region = Region(908, 2777, 152, 152), id = "alliance", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "allianceevo.png", region = Region(1139, 1484, 152, 152), id = "allianceevo", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "alliancestar.png", region = Region(852, 439, 152, 152), id = "alliancestar", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "alliancedonate.png", region = Region(538, 2047, 152, 152), id = "alliancedonate", action='for i = 1, 25 do click(matchResult); wait(1) end'}
+index = index + 1
+
+touchList[index] = {target =  "alliancedonatex.png", region = Region(1208, 689, 152, 152), id = "alliancedonatex", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "alliancedonatexback.png", region = Region(20, 11, 152, 152), id = "alliancedonatexback", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+------ alliance salary-----
+touchList[index] = {target =  "salary.png", region = Region(807, 1450, 152, 152), id = "salary", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "s30.png", region = Region(121, 1138, 209, 197), id = "s30", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "salaryb.png", region = Region(697, 3, 180, 180), id = "salaryb30", action = 'click'}
+index = index + 1
+
+touchList[index] = {target =  "s70.png", region = Region(272, 936, 222, 162), id = "s70", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "salaryb.png", region = Region(697, 3, 180, 180), id = "salaryb70", action = 'click'}
+index = index + 1
+
+touchList[index] = {target =  "s120.png", region = Region(451, 1117, 200, 207), id = "s120", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "salaryb.png", region = Region(697, 3, 180, 180), id = "salaryb120", action = 'click'}
+index = index + 1
+
+touchList[index] = {target =  "s180.png", region = Region(609, 911, 219, 196), id = "s180", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "salaryb.png", region = Region(697, 3, 180, 180), id = "salaryb180", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "s260.png", region = Region(789, 1129, 199, 192), id = "s260", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "salaryb.png", region = Region(697, 3, 180, 180), id = "salaryb260", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "s340.png", region = Region(916, 929, 214, 187), id = "s340", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "salaryb.png", region = Region(697, 3, 180, 180), id = "salaryb340", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "s420.png", region = Region(1074, 1128, 242, 184), id = "s420", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "salaryb.png", region = Region(697, 3, 180, 180), id = "salaryb420", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "s500.png", region = Region(1209, 938, 214, 191), id = "s500", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "salaryb.png", region = Region(697, 3, 180, 180), id = "salaryb500", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+------ alliance attendance-----
+touchList[index] = {target =  "att.png", region = Region(567, 587, 180, 180), id = "att", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stone.png", region = Region(33, 1022, 117, 93), id = "attstone1", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stoneb.png", region = Region(694, -5, 180, 180), id = "attstoneb1", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stone.png", region = Region(785, 1039, 177, 93), id = "attstone2", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stoneb.png", region = Region(694, -5, 180, 180), id = "attstoneb2", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stone.png", region = Region(1315, 1044, 104, 72), id = "attstone3", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stoneb.png", region = Region(694, -5, 180, 180), id = "attstoneb3", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stone.png", region = Region(42, 1584, 112, 80), id = "attstone4", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stoneb.png", region = Region(694, -5, 180, 180), id = "attstoneb4", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stone.png", region = Region(805, 1581, 126, 83), id = "attstone5", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stoneb.png", region = Region(694, -5, 180, 180), id = "attstoneb5", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stone.png", region = Region(1320, 1582, 96, 85), id = "attstone6", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stoneb.png", region = Region(694, -5, 180, 180), id = "attstoneb6", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stone.png", region = Region(45, 2125, 99, 106), id = "attstone7", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stoneb.png", region = Region(694, -5, 180, 180), id = "attstoneb7", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stone.png", region = Region(803, 2137, 108, 91), id = "attstone8", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stoneb.png", region = Region(694, -5, 180, 180), id = "attstoneb8", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stone.png", region = Region(1320, 2106, 88, 100), id = "attstone9", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stoneb.png", region = Region(694, -5, 180, 180), id = "attstoneb9", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+------ alliance contribute-----
+touchList[index] = {target =  "con.png", region = Region(1037, 571, 180, 180), id = "con", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stone.png", region = Region(457, 1029, 135, 88), id = "constone1", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stoneb.png", region = Region(694, -5, 180, 180), id = "constoneb1", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stone.png", region = Region(1310, 1016, 103, 114), id = "constone2", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stoneb.png", region = Region(694, -5, 180, 180), id = "constoneb2", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stone.png", region = Region(427, 1585, 197, 84), id = "constone3", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stoneb.png", region = Region(694, -5, 180, 180), id = "constoneb3", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stone.png", region = Region(1305, 1589, 118, 90), id = "constone4", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stoneb.png", region = Region(694, -5, 180, 180), id = "constoneb4", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stone.png", region = Region(405, 2105, 171, 112), id = "constone5", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stoneb.png", region = Region(694, -5, 180, 180), id = "constoneb5", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stone.png", region = Region(1281, 2116, 149, 131), id = "constone6", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "stoneb.png", region = Region(694, -5, 180, 180), id = "constoneb6", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+touchList[index] = {target =  "salaryx.png", region = Region(1264, 10, 180, 180), id = "salaryx", action = 'click(matchResult); wait(1)'}
+index = index + 1
+
+toast("hello ant farmer")
